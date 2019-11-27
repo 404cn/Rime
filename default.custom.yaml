@@ -1,0 +1,6 @@
+patch:
+    "menu/page_size": 7 # 设定每页候选数默认值
+    schema_list:
+        - schema: luna_pinyin_simp
+
+
