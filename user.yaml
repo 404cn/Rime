@@ -1,14 +1,2 @@
 var:
-<<<<<<< HEAD
-  last_build_time: 1574863158
-=======
-  last_build_time: 1574904524
->>>>>>> 7464a8113adfd01779219d70123a81dccf19483c
-  option:
-    ascii_punct: true
-  previously_selected_schema: luna_pinyin_simp
-  schema_access_time:
-    bopomofo: 1574837498
-    luna_pinyin: 1574837522
-    luna_pinyin_simp: 1574844398
-    rua: 1574843211
+  last_build_time: 1575125344

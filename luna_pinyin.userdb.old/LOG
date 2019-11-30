@@ -1,0 +1,10 @@
+2019/11/30-22:49:06.283967 140192814507776 Log #151: 150 ops saved to Table #152 OK
+2019/11/30-22:49:06.284199 140192814507776 Archiving /home/liubo/.config/fcitx/rime/luna_pinyin.userdb/000151.log: OK
+2019/11/30-22:49:06.284321 140192814507776 Log #107: 0 ops saved to Table #153 OK
+2019/11/30-22:49:06.284384 140192814507776 Archiving /home/liubo/.config/fcitx/rime/luna_pinyin.userdb/000107.log: OK
+2019/11/30-22:49:06.284522 140192814507776 Table #147: 134 entries OK
+2019/11/30-22:49:06.284638 140192814507776 Table #106: 16 entries OK
+2019/11/30-22:49:06.284704 140192814507776 Table #152: 150 entries OK
+2019/11/30-22:49:06.284857 140192814507776 Archiving /home/liubo/.config/fcitx/rime/luna_pinyin.userdb/MANIFEST-000105: OK
+2019/11/30-22:49:06.284903 140192814507776 Archiving /home/liubo/.config/fcitx/rime/luna_pinyin.userdb/MANIFEST-000150: OK
+2019/11/30-22:49:06.288925 140192814507776 **** Repaired leveldb /home/liubo/.config/fcitx/rime/luna_pinyin.userdb; recovered 3 files; 7065 bytes. Some data may have been lost. ****
