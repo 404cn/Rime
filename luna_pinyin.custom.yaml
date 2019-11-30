@@ -12,7 +12,10 @@ patch:
                 option_name: zh_simp # 简化字使用独立开关以避免影响其他输入方案的简繁体转换状态
             - uniquifier
               
+<<<<<<< HEAD
               #    punctuator:
               #        import_preset: alternative
               #    key_binder:
               #        key_bindings: alternative
+=======
+>>>>>>> 7464a8113adfd01779219d70123a81dccf19483c

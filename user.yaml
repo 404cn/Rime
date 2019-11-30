@@ -1,5 +1,9 @@
 var:
+<<<<<<< HEAD
   last_build_time: 1574863158
+=======
+  last_build_time: 1574904524
+>>>>>>> 7464a8113adfd01779219d70123a81dccf19483c
   option:
     ascii_punct: true
   previously_selected_schema: luna_pinyin_simp
