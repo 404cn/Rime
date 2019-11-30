@@ -1,12 +1,8 @@
 __build_info:
   rime_version: 1.5.3
   timestamps:
-    default: 1561294610
-    default.custom: 1574843361
-    key_bindings: 1561294610
-    key_bindings.custom: 0
-    punctuation: 1561294610
-    punctuation.custom: 0
+    default: 1526362370
+    default.custom: 1574858989
 ascii_composer:
   good_old_caps_lock: true
   switch_key:
@@ -16,7 +12,7 @@ ascii_composer:
     Eisu_toggle: clear
     Shift_L: inline_ascii
     Shift_R: commit_text
-config_version: 0.40
+config_version: 0.38
 key_binder:
   bindings:
     - {accept: "Control+p", send: Up, when: composing}
@@ -49,6 +45,8 @@ key_binder:
     - {accept: "Control+Shift+numbersign", toggle: full_shape, when: always}
     - {accept: "Control+Shift+dollar", toggle: simplification, when: always}
     - {accept: "Control+Shift+percent", toggle: extended_charset, when: always}
+    - {accept: "Shift+space", toggle: full_shape, when: always}
+    - {accept: "Control+period", toggle: ascii_punct, when: always}
 menu:
   page_size: 7
 punctuator:

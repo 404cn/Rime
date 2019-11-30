@@ -1,0 +1,18 @@
+patch:
+    switches:
+        - name: zh_simp
+          reset: 1 # 默认状态为简体
+          states: [ 漢字, 汉字 ]
+        - name: ascii_punct # 默认在中文下使用全英文字符
+          states: ["。，", "．，"]
+
+    engine:
+        filters:
+            - simplifier:
+                option_name: zh_simp # 简化字使用独立开关以避免影响其他输入方案的简繁体转换状态
+            - uniquifier
+              
+              #    punctuator:
+              #        import_preset: alternative
+              #    key_binder:
+              #        key_bindings: alternative

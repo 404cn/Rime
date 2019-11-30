@@ -12,7 +12,7 @@ patch:
                 option_name: zh_simp # 简化字使用独立开关以避免影响其他输入方案的简繁体转换状态
             - uniquifier
               
-    punctuator:
-        import_preset: alternative
-    key_binder:
-        key_bindings: alternative
+              #    punctuator:
+              #        import_preset: alternative
+              #    key_binder:
+              #        key_bindings: alternative
