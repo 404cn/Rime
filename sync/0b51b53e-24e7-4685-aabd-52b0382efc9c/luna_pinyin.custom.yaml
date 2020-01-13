@@ -1,9 +1,16 @@
 patch:
     switches:
+    	- name: ascii_mode
+	  reset: 0
+	  states: ["中文", "西文"]
+        - name: full_shape
+	  reset: 0
+	  states: ["半角", "全角"]
         - name: zh_simp
           reset: 1 # 默认状态为简体
           states: [ 漢字, 汉字 ]
         - name: ascii_punct # 默认在中文下使用全英文字符
+	  reset: 1
           states: ["。，", "．，"]
 
     engine:
@@ -11,8 +18,4 @@ patch:
             - simplifier:
                 option_name: zh_simp # 简化字使用独立开关以避免影响其他输入方案的简繁体转换状态
             - uniquifier
-              
-              #    punctuator:
-              #        import_preset: alternative
-              #    key_binder:
-              #        key_bindings: alternative
+

@@ -2,100 +2,11 @@
 #@/db_name	luna_pinyin.userdb
 #@/db_type	userdb
 #@/rime_version	1.5.3
-#@/tick	80
+#@/tick	795
 #@/user_id	0b51b53e-24e7-4685-aabd-52b0382efc9c
-a 	啊	c=0 d=0.0891366 t=80
-a da shi dai 	啊大時代	c=1 d=0.895834 t=80
-a si dun 	阿斯頓	c=3 d=2.11058 t=80
-a si lan 	阿斯蘭	c=0 d=0.0697676 t=80
-ai shang 	愛上	c=1 d=0.848573 t=80
-ai shang da shang lai da kou jing a si lan ken de ji la kai shi jia de 	愛上打上來大口徑阿斯蘭肯德基拉開是假的	c=1 d=0.701173 t=80
-ai shang da shi dai ka shang da jia la kai shi jia de lu ka si jue de lu ka si jue de lu ka si jue de 	愛上大時代卡上大家拉開是假的盧卡斯覺得盧卡斯覺得盧卡斯覺得	c=1 d=0.67368 t=80
-ban jiao 	半角	c=1 d=0.763379 t=80
-bang ding 	綁定	c=1 d=0.913931 t=80
-ben 	本	c=1 d=0.806541 t=80
-bi mian 	避免	c=1 d=0.865022 t=80
-biao dian 	標點	c=1 d=0.831362 t=80
-bu hao 	不好	c=0 d=0.0918512 t=80
-bu hao shi 	不好時	c=1 d=0.923116 t=80
-bu zai 	不再	c=1 d=0.946485 t=80
-ce 	測	c=1 d=0.927743 t=80
-chong she 	重設	c=1 d=0.818731 t=80
-cong 	從	c=1 d=0.786628 t=80
-da jia 	大家	c=0 d=0.067032 t=80
-da kou jing 	大口徑	c=0 d=0.0697676 t=80
-da shang lai 	打上來	c=0 d=0.0697676 t=80
-da shi dai 	大時代	c=0 d=0.156168 t=80
-dang 	當	c=1 d=0.782705 t=80
-de 	的	c=1 d=0.882497 t=80
-du li 	獨立	c=1 d=0.852144 t=80
-er qian wan 	二千萬	c=0 d=0.067368 t=80
-fang an 	方案	c=3 d=2.47527 t=80
-hou xuan 	候選	c=0 d=0.0729789 t=80
-hou xuan shu 	候選數	c=1 d=0.733447 t=80
-jian fan 	簡繁	c=0 d=0.0882497 t=80
-jian fan ti 	簡繁體	c=1 d=0.88692 t=80
-jian hua zi 	簡化字	c=1 d=0.843665 t=80
-jian ti 	簡體	c=1 d=0.97531 t=80
-jiao cheng 	教程	c=2 d=1.38493 t=80
-jue de 	覺得	c=0 d=0.067032 t=80
-ka shang 	卡上	c=0 d=0.067032 t=80
-kai guan 	開關	c=1 d=0.856415 t=80
-ken de ji 	肯德基	c=0 d=0.0697676 t=80
-kuai jie jian 	快捷鍵	c=1 d=0.918512 t=80
-kuang wu ju 	礦務局	c=0 d=0.067368 t=80
-la kai 	拉開	c=0 d=0.1368 t=80
-lu ka si 	盧卡斯	c=0 d=0.067032 t=80
-ma 	碼	c=1 d=0.941765 t=80
-mei ye 	每頁	c=1 d=0.729789 t=80
-mo ren 	默認	c=2 d=1.94099 t=80
-mo ren zhi 	默認值	c=1 d=0.737123 t=80
-pei zhi 	配置	c=1 d=0.680451 t=80
-qi ta 	其他	c=2 d=1.66429 t=80
-qie huan dao 	切換到	c=1 d=0.802519 t=80
-qing wen 	請問	c=1 d=0.718924 t=80
-quan 	全	c=0 d=0.0995012 t=80
-quan jiao 	全角	c=2 d=1.50803 t=80
-quan ying wen zi fu 	全英文字符	c=1 d=1 t=80
-shang ping 	上屏	c=1 d=0.955997 t=80
-shang yi ge 	上一個	c=1 d=0.774916 t=80
-she ding 	設定	c=1 d=0.726149 t=80
-she zhi 	設置	c=1 d=0.748264 t=80
-shen me 	什麼	c=0 d=0.0683861 t=80
-shen me yong 	什麼用	c=0 d=0.0740818 t=80
-sheng dan kuai le 	聖誕快樂	c=0 d=0.067368 t=80
-sheng dan kuai le kuang wu ju er qian wan 	聖誕快樂礦務局二千萬	c=1 d=0.677057 t=80
-shi 	是	c=0 d=0.0683861 t=80
-shi 	時	c=1 d=0.906498 t=80
-shi fou 	是否	c=1 d=0.722527 t=80
-shi jia de 	是假的	c=0 d=0.1368 t=80
-shi shen me 	是什麼	c=1 d=0.687289 t=80
-shi yong 	使用	c=2 d=1.8429 t=80
-shu 	數	c=0 d=0.0729789 t=80
-shu ru 	輸入	c=3 d=2.75137 t=80
-shu ru fa 	輸入法	c=1 d=0.904837 t=80
-shu ru fang an 	輸入方案	c=1 d=0.878095 t=80
-shuang pin 	雙拼	c=1 d=0.683861 t=80
-ti 	體	c=0 d=0.0882497 t=80
-wan er 	玩兒	c=1 d=0.715338 t=80
-wei 	爲	c=1 d=0.970446 t=80
-xi 	西	c=1 d=0.839457 t=80
-xi wen 	西文	c=1 d=0.826959 t=80
-xia 	下	c=0 d=0.0985112 t=80
-yan yong 	沿用	c=1 d=0.771052 t=80
-yi 	以	c=1 d=0.860708 t=80
-ying wen 	英文	c=1 d=0.927092 t=80
-ying wen biao dian 	英文標點	c=1 d=0.759572 t=80
-ying xiang 	影響	c=1 d=0.869358 t=80
-you 	有	c=0 d=0.0740818 t=80
-you shen me yong 	有什麼用	c=1 d=0.744532 t=80
-zai 	在	c=1 d=0.985112 t=80
-zhi jie 	直接	c=1 d=0.951229 t=80
-zhong 	中	c=1 d=0.83527 t=80
-zhong wen 	中文	c=1 d=0.929616 t=80
-zhong wen xia 	中文下	c=1 d=0.99005 t=80
-zhu ti 	主題	c=2 d=1.8097 t=80
-zhuan huan 	轉換	c=0 d=0.088692 t=80
-zhuan huan zhuang tai 	轉換狀態	c=1 d=0.891366 t=80
-zhuang tai 	狀態	c=2 d=1.87713 t=80
-zi fu 	字符	c=0 d=0.0995012 t=80
+a 	啊	c=0 d=0.0891366 t=795
+a da shi dai 	啊大時代	c=1 d=0.895834 t=795
+a si dun 	阿斯頓	c=3 d=2.11058 t=795
+liao 	廖	c=0 d=0.1 t=794
+liao xue feng 	廖雪峯	c=1 d=1 t=795
+xue feng 	雪峯	c=0 d=0.1 t=794

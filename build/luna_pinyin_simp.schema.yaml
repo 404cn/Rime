@@ -1,10 +1,14 @@
 __build_info:
   rime_version: 1.5.3
   timestamps:
-    default: 1526362370
-    default.custom: 1574858989
+    default: 1561294610
+    default.custom: 0
+    key_bindings: 1561294610
+    key_bindings.custom: 0
     luna_pinyin_simp.custom: 0
-    luna_pinyin_simp.schema: 1526362370
+    luna_pinyin_simp.schema: 1561294610
+    punctuation: 1561294610
+    punctuation.custom: 0
 custom_phrase:
   db_class: stabledb
   dictionary: ""
@@ -67,13 +71,11 @@ key_binder:
     - {accept: "Control+Shift+numbersign", toggle: full_shape, when: always}
     - {accept: "Control+Shift+dollar", toggle: simplification, when: always}
     - {accept: "Control+Shift+percent", toggle: extended_charset, when: always}
-    - {accept: "Shift+space", toggle: full_shape, when: always}
-    - {accept: "Control+period", toggle: ascii_punct, when: always}
     - {accept: "Control+Shift+4", toggle: zh_simp, when: always}
     - {accept: "Control+Shift+dollar", toggle: zh_simp, when: always}
   import_preset: default
 menu:
-  page_size: 7
+  page_size: 5
 punctuator:
   full_shape:
     " ": {commit: "　"}
