@@ -11,6 +11,8 @@ patch:
     - name: ascii_punct
       reset: 1
       states: [ 。，, ．， ]
+  ascii_composer/switch_key:
+    Shift_L: commit_code
   "translator/dictionary": luna_pinyin.extended
   "speller/algebra/@before 0": xform/^([b-df-hj-np-tv-z])$/$1_/
 

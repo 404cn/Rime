@@ -7,12 +7,15 @@ __build_info:
     emoji_suggestion.custom: 0
     key_bindings: 1583737584
     key_bindings.custom: 0
-    luna_pinyin.custom: 1583738576
+    luna_pinyin.custom: 1583742679
     luna_pinyin.schema: 1583737581
     punctuation: 1583737584
     punctuation.custom: 0
     symbols: 1583737584
     symbols.custom: 0
+ascii_composer:
+  switch_key:
+    Shift_L: commit_code
 custom_phrase:
   db_class: stabledb
   dictionary: ""
@@ -391,6 +394,7 @@ schema:
   version: 0.24
 speller:
   algebra:
+    - "xform/^([b-df-hj-np-tv-z])$/$1_/"
     - "erase/^xx$/"
     - "abbrev/^([a-z]).+$/$1/"
     - "abbrev/^([zcs]h).+$/$1/"
@@ -422,7 +426,7 @@ switches:
     reset: 1
     states: ["🈚️️︎", "🈶️️️"]
 translator:
-  dictionary: luna_pinyin
+  dictionary: luna_pinyin.extended
   preedit_format:
     - "xform/([nl])v/$1ü/"
     - "xform/([nl])ue/$1üe/"
