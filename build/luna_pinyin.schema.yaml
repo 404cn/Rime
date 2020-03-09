@@ -1,15 +1,17 @@
 __build_info:
   rime_version: 1.5.3
   timestamps:
-    default: 1561294610
-    default.custom: 0
-    key_bindings: 1561294610
+    default: 1583737584
+    default.custom: 1583739729
+    emoji_suggestion: 1583738715
+    emoji_suggestion.custom: 0
+    key_bindings: 1583737584
     key_bindings.custom: 0
-    luna_pinyin.custom: 0
-    luna_pinyin.schema: 1561294610
-    punctuation: 1561294610
+    luna_pinyin.custom: 1583738576
+    luna_pinyin.schema: 1583737581
+    punctuation: 1583737584
     punctuation.custom: 0
-    symbols: 1561294610
+    symbols: 1583737584
     symbols.custom: 0
 custom_phrase:
   db_class: stabledb
@@ -18,8 +20,13 @@ custom_phrase:
   enable_sentence: false
   initial_quality: 1
   user_dict: custom_phrase
+emoji_suggestion:
+  opencc_config: emoji.json
+  option_name: emoji_suggestion
+  tips: all
 engine:
   filters:
+    - "simplifier@emoji_suggestion"
     - simplifier
     - uniquifier
   processors:
@@ -76,7 +83,7 @@ key_binder:
     - {accept: "Control+Shift+percent", toggle: extended_charset, when: always}
   import_preset: default
 menu:
-  page_size: 5
+  page_size: 7
 punctuator:
   full_shape:
     " ": {commit: "　"}
@@ -406,9 +413,14 @@ switches:
   - name: full_shape
     states: ["半角", "全角"]
   - name: simplification
+    reset: 1
     states: ["漢字", "汉字"]
   - name: ascii_punct
+    reset: 1
     states: ["。，", "．，"]
+  - name: emoji_suggestion
+    reset: 1
+    states: ["🈚️️︎", "🈶️️️"]
 translator:
   dictionary: luna_pinyin
   preedit_format:
