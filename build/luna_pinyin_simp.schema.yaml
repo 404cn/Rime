@@ -3,7 +3,7 @@ __build_info:
   timestamps:
     default: 1583737584
     default.custom: 1583739729
-    emoji_suggestion: 1583738715
+    emoji_suggestion: 1583743053
     emoji_suggestion.custom: 0
     key_bindings: 1583737584
     key_bindings.custom: 0
@@ -24,7 +24,6 @@ custom_phrase:
 emoji_suggestion:
   opencc_config: emoji.json
   option_name: emoji_suggestion
-  tips: all
 engine:
   filters:
     - "simplifier@emoji_suggestion"
