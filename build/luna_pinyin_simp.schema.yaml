@@ -7,7 +7,7 @@ __build_info:
     emoji_suggestion.custom: 0
     key_bindings: 1583737584
     key_bindings.custom: 0
-    luna_pinyin_simp.custom: 1583742718
+    luna_pinyin_simp.custom: 1585216590
     luna_pinyin_simp.schema: 1583737581
     punctuation: 1583737584
     punctuation.custom: 0
@@ -199,7 +199,7 @@ switches:
     reset: 1
     states: ["漢字", "汉字"]
   - name: ascii_punct
-    reset: 1
+    reset: 0
     states: ["。，", "．，"]
   - name: emoji_suggestion
     reset: 1
