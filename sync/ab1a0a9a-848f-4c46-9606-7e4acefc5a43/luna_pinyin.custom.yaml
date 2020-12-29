@@ -1,0 +1,23 @@
+patch:
+  switches:                   
+    - name: ascii_mode
+      reset: 0
+      states: [ 中文, 西文 ] 
+    - name: full_shape  
+      states: [ 半角, 全角 ] 
+    - name: simplification
+      reset: 1 
+      states: [ 漢字, 汉字 ]
+    - name: ascii_punct
+      reset: 0
+      states: [ 。，, ．， ]
+  ascii_composer/switch_key:
+    Shift_L: commit_code
+  "translator/dictionary": luna_pinyin.extended
+  "speller/algebra/@before 0": xform/^([b-df-hj-np-tv-z])$/$1_/
+
+__patch:
+# Rx: emoji:customize:schema=luna_pinyin {
+  - patch/+:
+      __include: emoji_suggestion:/patch
+# }
